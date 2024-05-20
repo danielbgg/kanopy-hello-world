@@ -28,7 +28,7 @@ steps:
     - push
 
 - name: deploy-staging
-  image: public.ecr.aws/kanopy/drone-helm:v3
+  image: public.ecr.aws/kanopy/drone-helm:v2
   settings:
     chart: mongodb/web-app
     chart_version: 4.17.0
